@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/446d88bff6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/style.css">
+  <title>Weather</title>
+</head>
+<body>
+  <section id="main">
+    <div class="container">
+      <div class="location">
+        <h2 id="city">City</h2>
+        <h2>, &nbsp;</h2>
+        <h2 id="state">Country</h2>
+      </div>
+      <h3 id="weather">-</h3>
+      <div id="temperature">
+        <h3 id="temp-f">-</h3>
+        <h3 id="temp-c"></h3>
+      </div>
+      <i class="fas fa-cloud"></i>
+      <div id="additional">
+        <p>Relative Humidity: -</p>
+        <p>Air pressure: -</p>
+        <p>Feels Like: -</p>
+        <p>Wind: -</p>
+      </div>
+      <button class="btn" id="loc-btn">Change Location</button>
+    </div>
+  </section>
+  <section id="type-location" style="visibility: hidden;">
+    <div class="container">
+      <div id="top">
+        <p>Location</p>
+        <i class="fas fa-times"></i>
+      </div>
+      <div id="main">
+        <label for="city">City</label>
+        <input type="text" id="city-input" placeholder="Enter a city or country">
+        <!-- <label for="city">State</label>
+        <input type="text"> -->
+      </div>
+      <div id="bottom">
+        <button class="btn">Close</button>
+        <button class="btn">Save Changes</button>
+      </div>
+    </div>
+  </section>
+  <script src="script/storage.js"></script>
+  <script src="script/weather.js"></script>
+  <script src="script/ui.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>

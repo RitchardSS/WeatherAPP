@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.btn{
+  text-align: center;
+  margin-top: .5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  padding: .5rem 1rem;
+  width: 30%;
+  cursor: pointer;
+  background:linear-gradient(rgb(0, 174, 255) 20%, #0D7CC5);
+}
+
+
+.container{
+  max-width: 550px;
+  margin: auto;
+  margin-top: 2rem;
+  overflow: hidden;
+  padding: 1rem;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(rgb(0, 174, 255) 20%, #0D7CC5);
+  
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
