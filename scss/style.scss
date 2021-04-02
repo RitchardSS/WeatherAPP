@@ -1,7 +1,13 @@
 @import "variables";
 #main{
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   .container{
+    width: 550px;
+    min-width: 200px;
+    margin: 1.5rem 1rem;
     text-align: center;
     font-weight: 400;
     display: flex;
@@ -11,6 +17,7 @@
     .location{
       display: flex;
       justify-content: center;
+      color: #fff;
       h2{
         font-weight: 500;
         font-size: 2rem;
@@ -24,13 +31,16 @@
     #temperature{
       display: flex;
       justify-content: center;
+      color: #fff;
       h3{
         font-weight: 400;
       }
     }
 
     i{
-      font-size: 2rem;}
+      font-size: 2rem;
+      color: #fff;
+    }
 
     #additional{
       background-color: #f4f4f4;
@@ -38,6 +48,7 @@
       p{
         padding: .7rem;
         border-bottom: 1px dotted #333;
+        color: #555;
       }
     }
   }
@@ -50,16 +61,20 @@
   right: 0;
   width: 100%;
   height: 100%;
-  margin: auto;
+  // margin: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   .container{
     margin-top: 1rem;
-    width: 500px;
+    min-width: 432px;
+    margin: 1rem 2rem;
     background-color: #444;
     background-image: none;
     transform: translateY(-100px);
     transition: transform .2s;
+    
     #top{
       display: flex;
       justify-content: space-between;
@@ -79,10 +94,15 @@
       flex-direction: column;
       gap: .2rem;
       margin-bottom: 1rem;
+      label{
+        color: #fff;
+        padding-bottom: .2rem;
+      }
       input{
         padding: .5rem;
         border-radius: 5px;
         border: none;
+        width: 100%;
       }
     }
 

@@ -15,12 +15,13 @@
   width: 30%;
   cursor: pointer;
   background:linear-gradient(rgb(0, 174, 255) 20%, #0D7CC5);
+  color: #fff;
 }
 
 
 .container{
   max-width: 550px;
-  margin: auto;
+  // margin: auto;
   margin-top: 2rem;
   overflow: hidden;
   padding: 1rem;
